@@ -9,7 +9,7 @@
 ## Описание и структура файлов
 **main.py** - Сам исполняемый файл, содержащий основной код программы. Для запуска требует на компьютере среду исполнения и компиляции файлов python.  
 **model.keras** - Выгруженная обученная модель нейросети keras.  
-**news_descriptions_GPT4o.json** - DataSet новостей компаний, которые были оценины GPT-4.  
+**news_descriptions_GPT4o.json** - DataSet новостей компаний, которые были оценины GPT-4 (взят с сайта <https://www.kaggle.com/datasets/kkhubiev/russian-financial-news/data>).  
 &emsp;{"thinking": "Текст новости на английском (GPT-4 лучше даёт оценку тексту на англ. языке)",  
 &emsp;"article_type": "тип новости",  
 &emsp;"country": ["страна компании - Russia"],  
